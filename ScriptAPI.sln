@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptAPI", "ScriptAPI\ScriptAPI.csproj", "{74830C8D-D028-4EF6-BD58-E374C03CEA64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScriptAPI", "ScriptAPI\ScriptAPI.csproj", "{74830C8D-D028-4EF6-BD58-E374C03CEA64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScriptAPI.TestWebApp", "ScriptAPI.TestWebApp\ScriptAPI.TestWebApp.csproj", "{A0E74BC5-A5A5-4373-98BD-BE7C2C7D1726}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScriptAPI.MVC", "ScriptAPI.MVC\ScriptAPI.MVC.csproj", "{BDA1FB14-A946-439D-94C1-CFD501154B5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{74830C8D-D028-4EF6-BD58-E374C03CEA64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74830C8D-D028-4EF6-BD58-E374C03CEA64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74830C8D-D028-4EF6-BD58-E374C03CEA64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0E74BC5-A5A5-4373-98BD-BE7C2C7D1726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E74BC5-A5A5-4373-98BD-BE7C2C7D1726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E74BC5-A5A5-4373-98BD-BE7C2C7D1726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E74BC5-A5A5-4373-98BD-BE7C2C7D1726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDA1FB14-A946-439D-94C1-CFD501154B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA1FB14-A946-439D-94C1-CFD501154B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA1FB14-A946-439D-94C1-CFD501154B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA1FB14-A946-439D-94C1-CFD501154B5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
